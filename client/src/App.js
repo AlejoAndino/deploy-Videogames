@@ -6,6 +6,8 @@ import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Form from './components/Form/Form';
 import Detail from './components/Detail/Detail';
+import axios from 'axios';
+axios.defaults.baseURL = "http://localhost:3001/"
 
 function App() {
 
